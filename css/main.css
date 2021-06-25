@@ -1,0 +1,195 @@
+/* Fonts */
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 600;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto';
+    background: white;
+    overflow-x: hidden;
+}
+.p{
+    width: 40%;
+    font-weight: 500;
+    margin-left: 385px;
+}
+/* Header section */
+.header{
+    background: #EEEFF1;
+    padding: 2rem 0rem;
+}
+li{
+    margin: 0rem 0.5rem;
+}
+li a{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+/* Welcome section */
+.welcome{
+    background: #EEEFF1;
+}
+.welcome-subtitle{
+    font-size: 2.7rem;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+.welcome p{
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #727272;
+}
+/* About-me */
+.aboout-me_subtitle{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+/*Project */
+.project{
+    background: #34547A;
+}
+.just{
+    display: flex;
+}
+.just p{
+    margin-left: 10px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+.projects{
+    margin: 0rem 2rem;
+}
+/*My work */
+.my-work{
+    background: #EEEFF1;
+}
+/*Pictures */
+.pictures img{
+    width: 100%;
+}
+/*Microsoft carousel*/
+.carusel{
+    display: none;
+}
+/*Contact us */
+.contact-us{
+    background: #EEEFF1;
+}
+.form-1{
+    margin-right: 3rem;
+}
+
+.button{
+    margin-left: 465px;
+}
+input{
+    height: 50px;
+}
+.btn-cla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-cla button{
+    align-self: flex-start;
+}
+/* Footer */
+.footer{
+    padding: 1rem 0rem;
+    background: #34547A;
+}
+.footer p{
+    color: white;
+}
+.footer img{
+    margin: 0px 10px;
+}
+@media only screen and (max-width: 767px) {
+    /* Header section*/
+    nav{
+        width: 90%;
+    }
+    /* Welcome section */
+    .welcome p{
+        width: 85%;
+        margin-left: 30px;
+    }
+    /* About me */
+    .p{
+        text-align: center;
+        width: 75%;
+        margin-left: 60px;
+    }
+    /*Projects */
+    .hidden{
+        display: none;
+    }
+    .last p{
+        margin: 0;
+    }
+    .projects{
+        margin: 0rem 0.5rem;
+    }
+      /*My work*/
+     
+    .my-work video{
+        width: 300px;
+        height: 200px;
+    }
+    /*Pictures */
+    .pictures img{
+        width: 90%;
+    }
+    /*Microsoft carousel*/
+    .carusel{
+        display: block;
+    }
+    /*Contact us */
+    .button{
+        margin: 150px;
+    }
+    .form-1{
+        margin-right: 0px;
+    }
+    .c{
+        margin-left: 15px;
+    }
+    .ma{
+        width: 90%;
+    }
+
+}
